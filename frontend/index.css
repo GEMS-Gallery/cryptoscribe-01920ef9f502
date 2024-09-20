@@ -50,7 +50,7 @@ button:hover {
     margin-bottom: 15px;
 }
 
-#newPostForm {
+#newPostForm, #updatePostForm {
     background-color: #f9f9f9;
     padding: 20px;
     margin-top: 20px;
@@ -58,16 +58,44 @@ button:hover {
 }
 
 #postForm input,
-#editor {
+#updateForm input,
+#editor,
+#updateEditor {
     width: 100%;
     margin-bottom: 15px;
 }
 
-#postForm input {
+#postForm input,
+#updateForm input {
     padding: 10px;
     font-size: 1em;
 }
 
-#editor {
+#editor,
+#updateEditor {
     height: 200px;
+}
+
+.post-actions {
+    margin-top: 10px;
+}
+
+.post-actions button {
+    margin-right: 10px;
+}
+
+.update-btn {
+    background-color: #4a90e2;
+}
+
+.update-btn:hover {
+    background-color: #3a78c2;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
 }
